@@ -30,3 +30,4 @@ highlighter:        rouge
 collections:
   expeditions:
     output: true
+    permalink: /expeditions/:name
