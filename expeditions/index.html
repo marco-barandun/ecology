@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Ecology
-background: '/img/bg-post.jpg'
+title: Expeditions
+description: Blog of an ecologist exploring the world.
+background: '/expeditions/assets/images/bg-expeditions.jpg'
 ---
 
-<p>Hi! This is my personal website where I share my experiences as an ecologist wandering around in this planet and where I share ideas and code for teaching activities at highschool level.</p>
+<p>Here you can find listed the blog posts about my expeditions. Enjoy!</p>
 
 {% for post in site.posts %}
+{%- if post.category == "expeditions" -%}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -23,6 +25,7 @@ background: '/img/bg-post.jpg'
 
 <hr>
 
+{%- endif -%}
 {% endfor %}
 
 <!-- Pager -->

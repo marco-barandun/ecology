@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Ecology
-background: '/img/bg-post.jpg'
+title: Gardening
+description: Blog of an ecologist potting & unpotting particular plants.
+background: '/img/bg-gardening.jpg'
 ---
 
-<p>Hi! This is my personal website where I share my experiences as an ecologist wandering around in this planet and where I share ideas and code for teaching activities at highschool level.</p>
+<p>Here you can find listed the blog posts about varing for particular plants. I hope this can be helpful!</p>
 
 {% for post in site.posts %}
+{%- if post.category == "gardening" -%}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -23,6 +25,7 @@ background: '/img/bg-post.jpg'
 
 <hr>
 
+{%- endif -%}
 {% endfor %}
 
 <!-- Pager -->

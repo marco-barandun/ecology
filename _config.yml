@@ -31,3 +31,4 @@ collections:
   expeditions:
     output: true
     permalink: /expeditions/:name
+  photo-gallery:
