@@ -10,7 +10,7 @@ I have a particularly strong interest in peatland restoration, as I am fascinate
 
 Peatlands are among the most threatened ecosystems in Europe and their regeneration process offers unique opportunities to study fundamental ecological questions addressing topics such as species dispersal, ecological connectivity, evolutionary bottlenecks, island biogeography, and many more.
 
-Currently I am working modelling the distribution of species and their envirnmental breadth in order to test fundamental hypotheses describing the distribution of species richness on Earth. You can see a description of the project [here](https://marco-barandun.github.io/research/2022/12/04/environmental-breadth.html).
+Currently I am working modelling the distribution of species and their envirnmental breadth in order to test fundamental hypotheses describing the distribution of species richness on Earth. You can see a description of the project [here](https://marco-barandun.github.io/ecology/research/2022/12/07/latitudinal-species-richness-gradient.html).
 
 In my free time I am a die hard plant chaser, I enjoy diving, love cooking and good books. As this page exists, I apparently have a weak spot for coding as well as for blogs...
 
